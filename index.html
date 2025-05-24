@@ -1,15 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Personal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div> 
-        <h1>
-            estoy dentro
-        </h1>
+  <div class="container">
+    <div class="header">
+      <div class="profile-section">
+        <div class="profile-card">
+          <img src="Assets/foto.jpg" alt="Mi Foto" class="profile-image">
+
+          <div class="name">Priscila Perez</div>
+          <div class="title">Desarrollo de Software</div>
+
+          <div class="social-links">
+            <a href="https://www.instagram.com/imnotpriscilaa__?igsh=Zmgyb2N2dzczbG9j&utm_source=qr" class="facebook" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/codesbypriscila?s=21" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/imnotpriscilaa__?igsh=Zmgyb2N2dzczbG9j&utm_source=qr" class="instagram"
+              target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/TU_USUARIO" class="linkedin" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon phone">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <div class="contact-label">Teléfono</div>
+                <div class="contact-value">+908-906-8105</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon email">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <div class="contact-label">Email</div>
+                <div class="contact-value">priscilaperezherrera@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon location">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <div class="contact-label">Ubicación</div>
+                <div class="contact-value">Santo Domingo, Rep. Dominicana</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="about-section">
+          <h2>Acerca de Mí</h2>
+          <p class="about-text">
+            ¡Hola! Soy Priscila y soy estudiante de Desarrollo de Software en el ITLA.
+            Aunque aún no tengo experiencia profesional, me apasiona aprender cosas nuevas
+            y mejorar mis habilidades de programación cada día.
+          </p>
+        </div>
+
+        <div class="services-section">
+          <h3>Lo que Hago</h3>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon design">
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="service-title">Diseño UI/UX</div>
+              <div class="service-description">
+                Diseño interfaces intuitivas y atractivas centradas en la experiencia del usuario,
+                combinando estética y funcionalidad.
+              </div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon development">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="service-title">Desarrollo Web</div>
+              <div class="service-description">
+                Desarrollo sitios web funcionales y responsivos utilizando las mejores
+                prácticas y tecnologías más actuales del mercado.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="hobbies-section">
+      <h3>Mis Hobbies</h3>
+      <div class="hobbies-grid">
+
+        <div class="hobby-item">
+          <div class="hobby-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h4>Lectura</h4>
+          <p>Aprender constantemente a través de libros y artículos técnicos.</p>
+        </div>
+
+        <div class="hobby-item">
+          <div class="hobby-icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <h4>Música</h4>
+          <p>Escuchar y descubrir nuevos géneros musicales.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-section">
+      <h3>Video Favorito <3 </h3>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/EtjQVqXUPHo" title="Video de YouTube" allowfullscreen>
+            </iframe>
+          </div>
+    </div>
+  </div>
 </body>
+
 </html>
